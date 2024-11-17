@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(79, 177, 180);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.weatherform{
+    margin: 20px;
+
+}
+.cityinput{
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 2px solid color black;
+    border-radius: 15px;
+    margin: 10px;
+    width: 300px;
+}
+button[type = "summit"]{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: rgb(82, 19, 199);
+    border: none;
+    border-radius: 150px;
+    cursor: pointer;
+    color: aliceblue;
+}
+button[type = "summit"]:hover{
+    background-color: blue;
+
+}
+.card{
+    background: linear-gradient(180deg , hsl(223, 90%, 71%) ,hsl(39, 100%, 70%));
+    padding: 70px;
+    border-radius: 20px;
+    box-shadow:2px 2px 30px hsl(0, 0%, 50%, 0.5);
+    
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 3.5rem;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+p{
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+.citydisplay,.tempdisplay{
+    font-size: 3.5rem;
+    color: hsl(0, 0%, 0% ,0.75);
+    margin-bottom: 25px;
+}
+.humiditydisplay{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.descdisplay{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.weatheremoji{
+    margin: 0;
+    font-size: 7.5rem;
+
+}
+.errordisplay{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgba(219, 19, 16, 0.584);
+}
+
+
+
